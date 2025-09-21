@@ -25,6 +25,7 @@ function App() {
         <Route path="/validate" element={<Validate />} />
         <Route path="/Profile" element={<ProfileDashboard/>}></Route>
         <Route path="/clarifier" element={<Clarifier/>}></Route>
+        <Route path="/summarizer" element={<Summarizer/>}></Route>
       </Routes>
     </div>
   );
