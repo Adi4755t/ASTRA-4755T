@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="max-w-full max-h-screen">
       <Routes>
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/agents" element={<AgentsPage />} />
         <Route path="/conflict" element={<Conflict />} />
