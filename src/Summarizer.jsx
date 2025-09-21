@@ -11,7 +11,7 @@ const Summarizer = () => {
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState("");
 
-  // 🔹 Fetch clarifiers + conflicts together
+  // 🔹 Fetch clarifiers + conflicts togethe
   useEffect(() => {
     if (!sessionId || !userId) return;
 
